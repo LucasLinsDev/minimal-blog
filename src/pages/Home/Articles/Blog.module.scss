@@ -1,0 +1,43 @@
+@import "../../../styles/layout.scss";
+.blog_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    font-size: 24px;
+    color: black;
+  }
+  a {
+    font-size: 16px;
+    color: #7b7b7b;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    svg {
+      width: 16px;
+    }
+  }
+}
+
+.blog_cards {
+  display: grid;
+  gap: 34px;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  @include responsive-m() {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include responsive-s() {
+    grid-template-columns: 1fr;
+  }
+}
+
+.blog_header {
+  margin-bottom: 46px;
+
+  @include responsive-m() {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/hover.scss";
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $black;
+
+  @include hover();
+}

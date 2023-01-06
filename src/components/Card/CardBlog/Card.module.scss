@@ -1,0 +1,33 @@
+.card_blog {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  flex: 1 1 180px;
+  h1 {
+    font-size: 24px;
+    color: black;
+    height: 76px;
+  }
+  p {
+    font-size: 16px;
+    color: #565656;
+  }
+}
+
+.card_image {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.card_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    font-size: 12px;
+    color: #7b7b7b;
+  }
+}

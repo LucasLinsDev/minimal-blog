@@ -1,0 +1,22 @@
+@import "../../styles/hover.scss";
+.blog {
+  h1 {
+    margin-bottom: 96px;
+  }
+}
+
+.blog_button_load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    height: 45px;
+    border: 0px;
+    width: 182px;
+    border: 0px;
+    color: white;
+    background: #565656;
+    @include hover();
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/spacing.scss";
+.card_hero {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.card_image {
+  img {
+    width: 100%;
+  }
+}

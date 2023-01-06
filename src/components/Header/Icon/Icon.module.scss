@@ -1,0 +1,16 @@
+@import "../../../styles/hover.scss";
+@import "../../../styles/layout.scss";
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  svg {
+    @include hover();
+  }
+  svg:last-child {
+    display: none;
+    @include responsive-m() {
+      display: block;
+    }
+  }
+}

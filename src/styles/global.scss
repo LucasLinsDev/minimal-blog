@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@import "./layout.scss";
+@import "./colors.scss";
+@import "./fonts.scss";
+@import "./spacing.scss";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  overflow-x: hidden;
+}
+input,
+select,
+textarea,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  max-width: $container-xl;
+  width: 100%;
+  padding: 96px 24px;
+  margin: 0 auto;
+
+ 
+}

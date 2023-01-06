@@ -1,0 +1,64 @@
+.contact {
+  display: flex;
+  gap: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 96px 24px;
+
+  @media screen and (max-width: 996px) {
+    flex-direction: column;
+  }
+
+  &__info {
+    width: 100%;
+  }
+
+  &__list {
+    ul li {
+      margin-top: 16px;
+    }
+    h2 {
+      margin-top: 200px;
+      @media screen and (max-width: 996px) {
+        margin-top: 40px;
+      }
+    }
+    h3 {
+      margin-top: 60px;
+      font-size: 26px;
+    }
+  }
+
+  &__formbox {
+    width: 100%;
+    p {
+      font-size: 20px;
+      color: #565656;
+    }
+  }
+  &__form {
+    margin-top: 180px;
+
+    @media screen and (max-width: 996px) {
+      margin-top: 40px;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+}
+
+.button_dark {
+  width: 110px;
+  height: 45px;
+  color: white;
+  background: #565656;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: 0px;
+  transition-duration: 0.6s;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}

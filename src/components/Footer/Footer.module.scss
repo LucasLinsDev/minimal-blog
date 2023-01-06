@@ -1,0 +1,43 @@
+footer {
+  background: #f4f4f4;
+}
+
+.footer {
+  max-width: 1440px;
+  padding: 96px 24px;
+  display: flex;
+  margin: 0 auto;
+  gap: 50px;
+  @media screen and (max-width: 996px) {
+    flex-direction: column;
+  }
+}
+
+.footer_info {
+  flex: 2.5;
+
+  p {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+}
+
+.footer_social,
+.footer_copyright {
+  flex: 1;
+}
+
+.footer_social {
+  ul {
+    li {
+      margin-bottom: 16px;
+    }
+  }
+}
+.footer_copyright {
+  position: relative;
+  p {
+    position: absolute;
+    bottom: 0px;
+  }
+}

@@ -1,0 +1,9 @@
+.blog_archive {
+  padding: 96px 0px;
+}
+.blog_archive_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  row-gap: 126px;
+}

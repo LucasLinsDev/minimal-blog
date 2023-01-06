@@ -1,0 +1,65 @@
+.case {
+  &__description {
+    display: flex;
+
+    padding: 96px 0px;
+
+    @media screen and (max-width: 996px) {
+      flex-direction: column;
+    }
+
+    .box_left {
+      width: 70%;
+
+      @media screen and (max-width: 996px) {
+        width: 100%;
+      }
+      h2 {
+        font-size: 24px;
+        color: black;
+        margin-bottom: 36px;
+        font-weight: 400;
+        letter-spacing: 2px;
+      }
+      p {
+        max-width: 546px;
+
+        @media screen and (max-width: 996px) {
+          width: 100%;
+        }
+        font-size: 19px;
+        margin-bottom: 19px;
+      }
+    }
+
+    .box_right {
+    }
+  }
+}
+
+.case__hero {
+  img {
+    width: 100%;
+  }
+}
+
+.box_right {
+  @media screen and (max-width: 996px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    padding: 36px 0px;
+  }
+}
+
+.info {
+  h2 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 19px;
+    color: #565656;
+  }
+  margin-bottom: 36px;
+}

@@ -1,0 +1,27 @@
+.not_found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  h1 {
+    font-size: 200px;
+
+    line-height: 90%;
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+.button_dark {
+  width: max-content;
+  height: 45px;
+  color: white;
+  background: #565656;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: 0px;
+  padding-left: 26px;
+  padding-right: 26px;
+}

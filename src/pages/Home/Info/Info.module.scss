@@ -1,0 +1,33 @@
+@import "../../../styles/hover.scss";
+@import "../../../styles/layout.scss";
+.info_home {
+  padding: 96px 0px;
+  display: flex;
+  gap: 50px;
+
+  @include responsive-m() {
+    flex-direction: column;
+    padding: 36px 0px;
+  }
+}
+
+.box_left {
+  width: 100%;
+  h1 {
+    font-size: 24px;
+    max-width: 430px;
+    margin-bottom: 48px;
+  }
+  svg {
+    @include hover();
+  }
+}
+
+.box_right {
+  p {
+    line-height: 150%;
+    font-size: 19px;
+    color: #565656;
+    margin-bottom: 40px;
+  }
+}

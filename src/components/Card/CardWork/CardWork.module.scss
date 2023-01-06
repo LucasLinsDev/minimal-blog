@@ -1,0 +1,27 @@
+.card_work {
+  display: flex;
+
+  @media screen and (max-width: 996px) {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+}
+
+.box_left,
+.box_right {
+  width: 100%;
+}
+.box_left {
+  div {
+    width: 100px;
+    height: 2px;
+    background: #cccccc;
+    margin-top: 26px;
+  }
+}
+
+.box_right {
+  img {
+    width: 100%;
+  }
+}

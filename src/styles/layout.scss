@@ -1,0 +1,26 @@
+$container-xl: 1440px;
+$container-m: 960px;
+$container-s: 540px;
+
+@mixin responsive() {
+  @media screen and (max-width: $container-xl) {
+    @content;
+  }
+}
+
+@mixin responsive-m() {
+  @media screen and (max-width: $container-m) {
+    @content;
+  }
+}
+@mixin responsive-s() {
+  @media screen and (max-width: $container-s) {
+    @content;
+  }
+}
+
+.container {
+  max-width: $container-xl;
+  width: 100%;
+  margin: 0 auto;
+}
